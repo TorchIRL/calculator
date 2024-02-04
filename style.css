@@ -1,14 +1,135 @@
-* {
-    box-sizing: border-box;
-}
-.buttons {
-    display: grid;
-   
+.calcShell {
+    background-color: grey;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 10px;
 }
 
-.item1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-start: 5;
+.buttons {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: auto;
+    column-gap: 5px;
+    row-gap: 5px;
+    align-content: stretch;
+    justify-content: center;
 }
+
+button {
+    height: 35px;
+    width: 60px;
+}
+
+input {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    height: 60px;
+    font-size: 20px;
+    text-align: right;
+}
+
+#oBracket {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#cBracket {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#percent {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#reset {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#seven {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#eight {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#nine {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#divide {
+    grid-column: 4;
+    grid-row: 3;
+}
+
+#four {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#five {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#six {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#multiply {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#one {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#two {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#three {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+#minus {
+    grid-column: 4;
+    grid-row: 5;
+}
+
+#zero {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+#decimal {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+#equals {
+    grid-column: 4;
+    grid-row: 6;
+}
+
+#plus {
+    grid-column: 4;
+    grid-row: 6;
+}
+
+
+
+

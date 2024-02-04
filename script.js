@@ -1,5 +1,4 @@
-const shell = document.querySelector('.calcShell')
-const buttons = document.querySelector('.buttons')
+
 
 const minus = document.querySelector('#minus')
 minus.textContent = '-'
