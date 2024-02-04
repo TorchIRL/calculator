@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.buttons {
+    display: grid;
+   
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-start: 5;
+}
